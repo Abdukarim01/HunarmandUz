@@ -10,19 +10,91 @@
 	<link href="../fontawesome/css/all.css"rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<header>
-		<div id="headerIMG">
-			<div>
-				<img src="../img/Hunarmadlar.png">
-			</div>
-		</div>
-	</header>
-    <main>
+<header>
+  <div id="headerIMG">
+			<div class="nav1"><!--nav1-->
+				<div class="d-inline-block">
+					<a href="#">
+						<img src="../img/Hunarmadlar.png" class="craftsmen">
+					</a>
+				 </div>
+				 <div class="inputGroup">
+					  <span id="iconSearch" onclick="
+					  document.getElementById('searchInput').className = 'longinput'
+					  ">
+						<i class="fa fa-search"></i>
+					  </span>
+					<form action="#"class="d-inline-block">
+						<select id="selectLangue">
+							<option>UZ</option>
+							<option>EN</option>
+							<option>РУ</option>
+						</select>
+					</form>
+					<span id="iconUser">
+						<i class="far fa-user "></i>
+					</span>
+					<span id="iconHeart1" class="iconHeart1">
+						<i class="far fa-heart "></i>
+					</span>
+					<span id="iconHeart2" class="iconHeart2">
+						<i class="fas fa-heart "></i>
+					</span>
+  					<form action="#" class="d-inline-block">
+					<input type="search" class="searchInput" list="browsers" name="browser"  id="searchInput"
+					onmouseover="document.getElementById('searchInput').className = 'longinput'"
+					onmouseout="document.getElementById('searchInput').className = 'searchInput'">
+  						<datalist id="browsers">
+   						    <option value="pichoqlar">
+    					    <option value="mebellar">
+    					    <option value="sopol idishlar">
+                         </datalist>
+  					</form>
+				</div>
+			</div><!--nav1-->
+            <div class="nav2"><!--nav2-->
+             <nav class="navbar navbar-expand-lg navbar-light bg-dark pt-2">
+              <a class="navbar-brand" href="#">
+              	<img src="../img/Hunarmadlar.png" class="craftsmen">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="     #navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon "></span> -->
+                <i class="fa fa-bars text-white"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled text-white" href="#">Disabled</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2"  name="browsers" list="browsers" type="search" placeholder="Search" aria-label="Search">
+                  <datalist id="browsers">
+   						    <option value="pichoqlar">
+    					    <option value="mebellar">
+    					    <option value="sopol idishlar">
+                   </datalist>
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+          </div><!--nav2-->
+    </div>
+</header>
+<main>
     	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse illo, ipsum nam nobis illum eum culpa, hic sunt atque soluta mollitia, similique, magni? Sunt quia, deleniti cum molestiae sit, laudantium!	
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="../js/bootstrap.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 </body>
