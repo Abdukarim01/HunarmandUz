@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
+<body onscroll="document.getElementById('searchInput').className = 'searchInput'">
 <header>
   <div id="headerIMG">
 			<div class="nav1"><!--nav1-->
@@ -44,36 +44,54 @@
 						<i class="fas fa-heart "></i>
 					</span>
   					<form action="#" class="d-inline-block">
-					<input type="search" class="searchInput" list="browsers" name="browser"  id="searchInput"
-					onmouseover="document.getElementById('searchInput').className = 'longinput'"
-					onmouseout="document.getElementById('searchInput').className = 'searchInput'">
-  						<datalist id="browsers">
+					   <input type="search" class="searchInput" list="browsers" name="browser"  id="searchInput">
+  						 <datalist id="browsers">
    						    <option value="pichoqlar">
     					    <option value="mebellar">
     					    <option value="sopol idishlar">
-                         </datalist>
+                </datalist>
   					</form>
 				</div>
 			</div><!--nav1-->
-            <div class="nav2"><!--nav2-->
-             <nav class="navbar navbar-expand-lg navbar-light bg-dark pt-2">
+      <div class="nav2"><!--nav2-->
+         <nav class="navbar navbar-expand-lg navbar-light bg-dark pt-2">
               <a class="navbar-brand" href="#">
               	<img src="../img/Hunarmadlar.png" class="craftsmen">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="     #navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon "></span> -->
                 <i class="fa fa-bars text-white"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                  <li class="nav-item active pb-3 pt-3">
+                   <!--  <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a> -->
+                   <span id="iconUser" class="text-white " style="font-size: 25px;">
+										Royhatdan O'tish
+									 </span>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Link</a>
+                  <li class="nav-item pt-2">
+                    <a class="nav-link disabled text-white h4" href="#">
+                    	<span>Biz Haqimizda</span>
+                    </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled text-white" href="#">Disabled</a>
+                  <li class="nav-item pt-2 pb-2 ">
+                    <form action="#">
+                    	<select class="slesctMenu">
+                    	   <option>UZ</option>
+                    	   <option>EN</option>
+                    	   <option>РУ</option>
+                      </select>
+                    </form>
+                  </li>
+                  <li class="nav-item pt-2">
+                    <a class="nav-link disabled text-white h4" href="#">
+                    	<span>menu4</span>
+                    </a>
+                  </li>
+                  <li class="nav-item pt-2">
+                    <a class="nav-link disabled text-white h4" href="#">
+                    	<span>menu5</span>
+                    </a>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -88,13 +106,30 @@
               </div>
             </nav>
           </div><!--nav2-->
+          <div class="headerTitle">
+          	<h1>
+          		Har bir mahsulot mehr<br class="br">
+          		bilan tayyorlanadi
+          	</h1>
+          	<p>
+          		Milliy hunarmandlik buyumlarini online<br class="br">
+          		soting va sotib oling
+          	</p>
+          	<a href="#">
+          		<button class="btnRegistr">
+          		  Ro'yhatdan o'ting
+          	  </button>
+          	</a>
+          </div>
     </div>
 </header>
 <main>
     	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse illo, ipsum nam nobis illum eum culpa, hic sunt atque soluta mollitia, similique, magni? Sunt quia, deleniti cum molestiae sit, laudantium!	
-    </main>
+    	Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quis consequatur, veritatis consectetur, aspernatur at similique aperiam reiciendis enim accusamus. Doloremque velit rem debitis officiis voluptas? Quo maxime animi aliquid?
+    	Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quo iusto eius harum optio corporis tempora sunt ratione earum incidunt, reprehenderit. Nemo architecto a sunt, reprehenderit quam optio dolorum dolor, iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste omnis praesentium tempora eligendi laudantium repudiandae dolorem aperiam voluptate veritatis ea. Quidem, aut facilis illum, quam veniam aspernatur sunt nobis voluptas.
+</main>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="../js/bootstrap.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 </body>
