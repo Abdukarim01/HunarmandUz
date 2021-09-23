@@ -1,0 +1,160 @@
+body{}
+*{box-sizing: border-box;
+ padding:0;
+ margin: 0;}
+
+                                               /*HEADER*/
+
+input,button,select{outline: none;}
+
+ #headerIMG{width:100%;
+            height:850px;
+            background: linear-gradient(252.44deg, rgba(13, 13, 8, 0) 0%, rgba(13, 13, 8, 0.4) 100%);
+            background-image: url(../img/header.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            padding:55px 0px 0px 100px;}
+
+.craftsmen{width:217px;}
+
+.inputGroup{float: right;
+           margin-top:-20px;}
+
+.searchInput{width:130px;
+             height:40px;
+             border: none;
+             border-top-left-radius:50px;
+             border-bottom-left-radius:50px;
+             padding-left:65px;
+             transition: all 0.3s;}
+
+.longinput{width:225px;
+          transition: all 0.3s;
+          height:40px;
+          border: none;
+          border-top-left-radius:50px;
+          border-bottom-left-radius:50px;
+          padding-left:65px;
+          transition: all 0.3s;}
+
+.iconHeart1{position:relative;
+            margin-right:-61px;
+            font-size:19px;
+            }
+
+#iconUser{position: relative;
+         font-size:19px;
+         margin-right:3px;}
+
+.iconHeart2{position:relative;
+            margin-right:-61px;
+            font-size:19px;       
+            color: red;
+            display: none;}
+
+#selectLangue{margin-right:15px;
+              border:none;
+              background: transparent;
+              color: white;
+              font-size:30px;
+              transform: translateY(5px);
+              cursor: pointer;}
+
+option{/*background:#00BFFF;*/background: black;}
+
+svg{display: inline-block;background: white;}
+
+#iconSearch{position: relative;
+            font-size:30px;
+            color: white;
+            top:8px;
+            margin-right:5px;}
+
+.nav2{display: none;
+    position:fixed; 
+    width: 100%;
+    z-index: 100;}
+
+.slesctMenu{width:100%;
+            border: none;
+            background: transparent;
+            color: white;
+            font-size: 25px;}
+
+.navbar-nav li:hover{background:black;}
+#selectLangue:after{background:red;}
+
+.headerTitle{position: relative;
+             top:175px;
+             color: white;
+             letter-spacing:2px;}
+
+.headerTitle h1{font-size:60px;
+                line-height:60px;
+                 font-weight:bold;}
+
+.headerTitle p{font-size:25px;
+               line-height:35px;
+               margin-top:15px;
+               color:#c1c1c1;
+                font-family:  Antique Cherry - Personal Use;}
+
+.btnRegistr{
+    border: none;
+    background:transparent;
+    color:white;
+    font-size:23px;
+    padding:7px 40px 10px 43px;
+    border: 1px solid white;
+    margin-top:10px;
+    font-family:Tahoma;
+    letter-spacing:2px;
+    color:#c1c1c1;
+    font-weight: light;}
+
+@media(max-width: 1300px){
+    #headerIMG{height:75vw;
+               background-size:100% 100%;}}
+
+@media(max-width:900px){
+    #headerIMG{height:88vw;
+               background-position:20% 0%;
+               padding:55px 0px 0px 30px;}
+    .craftsmen{width:170px;}
+    .headerTitle{top:130px;}
+
+    .headerTitle h1{font-size:40px;line-height: initial;}
+    .btnRegistr{padding:7px 35px 10px 35px;
+               font-size:20px;
+               color: white;}
+    .headerTitle p{color: white;}
+
+}
+
+@media(max-width:650px){
+    #headerIMG{height:600px;
+               background-size: cover;
+               background-image:url(../img/header2.jpg);
+               padding: 0px;}
+    .nav1{display: none;}
+    .nav2{display: block;}
+    .headerTitle{text-align: center;}
+    .headerTitle h1{font-size:30px;}
+    .btnRegistr{padding:7px 30px 10px 30px;}
+    .br{display: none;}
+}
+
+
+@media(max-width:450px){
+    #headerIMG{height:550px;
+               background-size:cover;
+               background-image:url(../img/header2.jpg);
+               background-position:0px 50px;}}
+                                       
+                                         /*HEADER*/
+
+                                         /*MAIN*/
+.mainIMG{width:100%;
+        height:4500px;
+        background-size:cover;
+        background-image:url(../img/main.png);}
