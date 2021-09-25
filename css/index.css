@@ -16,11 +16,31 @@ input,button,select{outline: none;}
             padding:55px 0px 0px 100px;}
 
 #headerIMG2{width: 100%;
-            height:300px;
+            height:400px;
             background: linear-gradient(252.44deg, rgba(13, 13, 8, 0) 0%, rgba(13, 13, 8, 0.4) 100%);
             background-image: url(../img/main2.jpg);
             background-size: cover;
+            background-repeat: no-repeat;
             padding:55px 0px 0px 100px;}
+
+.second_page_header_title{position: relative;
+                          top:80px;
+                          text-align: center;
+                          font-weight: bold;
+                          font-family: Tahoma;
+                          color: white;}
+
+.second_page_header_title h1{font-size:70px;
+                            font-weight: bold;
+                            margin:0;
+                            margin-right:20px;
+                            letter-spacing:1px;
+                            }
+
+
+.second_page_header_title span{font-weight: lighter;
+                               font-size:18px;
+                               letter-spacing:1px;}
 
 .craftsmen{width:217px;}
 
@@ -155,6 +175,10 @@ svg{display: inline-block;background: white;}
     .headerTitle p{font-size:20px;}
     .btnRegistr{padding:7px 30px 10px 30px;}
     .br{display: none;}
+    .second_page_header_title{position: relative;
+                              top:170px;}
+    .second_page_header_title h1{font-size:40px;}
+    .second_page_header_title span{font-size:16px;}
 }
 
 
@@ -281,6 +305,7 @@ main{margin-top:-210px;}
              height:310px;}
     .cols{padding-left:30px;}
 }
+
 @media(max-width:768px){
     .cols{text-align: center;padding: 0;}
     .colsIMGs{margin: auto;margin-top:15px;}
@@ -350,5 +375,23 @@ main{margin-top:-210px;}
 .cols2IMGs:hover{transition: all 0.3s;
                 box-shadow: 20px 45px 70px 25px rgba(205, 133, 69, 0.15);}
 
+
 footer{height:300px;
       background: #CD8545;}
+
+#registr_page_bgimg{width:100%;
+                    height:auto;
+                    background-image: url(../img/registr_page_bg.png);
+                    background-size:150% 150%;
+                    padding:100px 60px;}
+@media(max-width:992px){
+    #registr_page_bgimg{
+        padding:40px 30px;
+    }
+}
+@media(max-width:768px){
+    #registr_page_bgimg{
+        padding:20px 10px;
+    }
+}
+.registr_page_row label{display: block;}

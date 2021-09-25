@@ -11,10 +11,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
-<body 
-	onscroll="document.getElementById('searchInput').className = 'searchInput'
-	document.getElementById('searchInput').value = ''
-	">
+<body>
 <header>
   <div id="headerIMG2">
 			<div class="nav1"><!--nav1-->
@@ -24,9 +21,7 @@
 					</a>
 				 </div>
 				 <div class="inputGroup">
-					  <span id="iconSearch" onclick="
-					  document.getElementById('searchInput').className = 'longinput'
-					  ">
+					  <span id="iconSearch" onclick="longInput()">
 						<i class="fa fa-search"></i>
 					  </span>
 					<form action="#"class="d-inline-block">
@@ -111,11 +106,11 @@
               </div>
             </nav>
           </div><!--nav2-->
-          <div class="text-center text-white" style="position: relative; top:80px;">
-          	<h1 class="display-4 font-weight-bolder">
+          <div class="second_page_header_title">
+          	<h1>
           		Kulolchilik
           	</h1>
-          	<span class="font-weight-bolder">
+          	<span>
           		Kulolchilik buyumlari va sopol idishlar
           	</span>
           </div>
@@ -436,6 +431,9 @@
 <footer>
 	
 </footer>
+
+
+<script src="js/index.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
