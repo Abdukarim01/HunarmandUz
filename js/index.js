@@ -7,6 +7,17 @@ function longInput(){
     document.getElementById('searchInput').className = 'longinput'
 }
 let property = 0
+
+window.onload = ()=>{
+	setInterval( ()=>{
+		property+=333.9
+		let div = document.getElementById('first')
+		div.style = `margin-left:-${property}px; transition:all 0.3s;`
+		if(property == 2716){
+	      property = 0}
+	},5000)
+}
+
 function nextTo(){
 	property+=339.5
 let div = document.getElementById('first')
@@ -22,3 +33,4 @@ div.style = `margin-left:-${property}px; transition:all 0.3s;`
 if(property == 0){
 	property = 3055.5}
 }
+

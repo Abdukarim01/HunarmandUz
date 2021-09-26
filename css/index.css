@@ -578,7 +578,7 @@ footer{height:280px;
 
 .carousel-items-line-in{width:100%;
                         height:100%;
-                        overflow-x: scroll;}
+                        overflow-x:hidden;}
 .carousel-items-line-in::-webkit-scrollbar{height: 5px;}
 
 .long-block{width:4391px;}
