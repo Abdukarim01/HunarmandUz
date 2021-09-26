@@ -581,13 +581,16 @@ footer{height:280px;
                         overflow-x: scroll;}
 .carousel-items-line-in::-webkit-scrollbar{height: 5px;}
 
-.long-block{width:2711px;}
+.long-block{width:3033px;}
 
 .carousels-line-items{display:inline-block;
                       width:300px;
                       height:395px;
-                      margin-right:35px;
+                      margin-right:17.5px;
+                      margin-left:17.5px;
                       box-shadow: 0px 4px 20px -2px rgba(205, 133, 69, 0.15);}
+
+.carousels-line-items:nth-child(1){margin-left:0;}
 @media(max-width:430px){
     .carousel-items-line{padding: 0px;}
     #carousels{margin-bottom:30px;}
