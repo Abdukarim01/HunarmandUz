@@ -17,7 +17,7 @@ if(property == 2716){
 }
 
 function prewTo(){
-property-=339.5
+property-=679
 let div = document.getElementById('first')
 div.style = `margin-left:-${property}px; transition:all 0.3s;`
 if(property == 0){
@@ -26,10 +26,11 @@ if(property == 0){
 
 window.onload = ()=>{
   setInterval( ()=>{
-  let div = document.getElementById('first')
-  property+=339.5
-  	div.style = `margin-left:-${property}px; transition:all 0.3s;`
-  if(property == 2716){
+  if(property == 3055.5){
 	property = -339.5}
-  },5000)
+  let div = document.getElementById('first')
+  div.style = `margin-left:-${property}px; transition:all 0.3s;`
+  property+=339.5
+
+  },3000)
 }
