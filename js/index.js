@@ -13,7 +13,7 @@ function nextTo(){
 let div = document.getElementById('first')
 div.style = `margin-left:-${property}px; transition:all 0.3s;`
 if(property == 2716){
-	property = 0}
+	property = -339.5}
 }
 
 function prewTo(){
