@@ -4,7 +4,7 @@ body{}
  margin: 0;}
 
 npm i css.gg                                            /*HEADER*/
-
+a{text-decoration: none; }
 input,button,select{outline: none;}
 
  #headerIMG{width:100%;
