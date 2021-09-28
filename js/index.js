@@ -14,6 +14,7 @@ let div = document.getElementById('first')
 div.style = `margin-left:-${property}px; transition:all 0.3s;`
 if(property == 2716){
 	property = -339.5}
+	console.log(property)
 }
 
 function prewTo(){
@@ -22,6 +23,7 @@ let div = document.getElementById('first')
 div.style = `margin-left:-${property}px; transition:all 0.3s;`
 if(property == 0){
 	property = 3055.5}
+console.log(property)
 }
 
 window.onload = ()=>{
@@ -32,5 +34,6 @@ window.onload = ()=>{
   div.style = `margin-left:-${property}px; transition:all 0.3s;`
   property+=339.5
 
-  },3000)
+  },5000)
+console.log(property)
 }
