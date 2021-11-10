@@ -544,7 +544,7 @@ footer{height:280px;
 
 .categories{display:flex; flex-wrap:wrap; padding:0px 0px 10px 0px;}
 
-.categories a{flex-grow:1;text-decoration: none; color:black; display:flex; padding-top:30px; align-items: center; flex-direction: column; height:110px; text-align: center;box-shadow:0px 2px 10px -5px gray; border-radius:10px;}
+.categories a{flex-grow:1;text-decoration: none; color:black; display:flex; padding-top:30px; align-items: center; flex-direction: column; height:130px; text-align: center;box-shadow:0px 2px 10px -5px gray; border-radius:10px;}
 
 
 .bar_menu{font-family: Tahoma; font-size:25px;}
@@ -556,6 +556,16 @@ footer{height:280px;
           background-repeat: no-repeat;
           background-position: center;
           }
+
+.from_other_people{width:40px;
+                   height:40px;
+                   border-radius:50%;
+                   background-image: url(../img/user_photo.png);
+                    background-size:cover;
+                    background-repeat: no-repeat;
+                    background-position: center;}
+
+
 
 .about_items{display:flex; justify-content:center; flex-direction:column;}
 
@@ -634,7 +644,7 @@ footer{height:280px;
     .categories{flex-direction: column;}
     .bar_menu{font-size:20px;}
     .categories a{padding-top:25px; height:100px;}
-    .about_items{text-align: center;}
+    .about_items{text-align: center; justify-content: center; align-items: center;}
     .items_bg div{width:150px;
                   height:150px;}
 
