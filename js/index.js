@@ -26,6 +26,7 @@ if(property <= 0){
 
 }
 
+
 window.onload = ()=>{
   setInterval( ()=>{
   if(property >= 3055.5){
@@ -37,3 +38,12 @@ window.onload = ()=>{
   },5000)
 
 }
+
+let delete_btn = document.querySelectorAll('.delete_btn')
+let items_row = document.querySelectorAll('.items_row')
+delete_btn.forEach( function(e) {
+	e.onclick = ()=>{
+		let btn_index = Array.prototype.indexOf.call(delete_btn, e)
+		items_row[btn_index].style = "display:none;"
+	}
+});
